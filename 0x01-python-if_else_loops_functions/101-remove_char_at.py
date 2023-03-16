@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def remove_char_at(str, n):
     if n < 0 or n >= len(str):
         return str
@@ -8,4 +9,3 @@ def remove_char_at(str, n):
             result += str[i]
 
     return result
-
